@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MultiplicationTable from "./MultiplicationTable";
-import { ThemeProvider, useContext } from "react";
-import { ThemeContext } from "./ThemeContext";
+import { useContext } from "react";
+import { ThemeContext } from "../ThemeContext";
 
 function TableContainer() {
   const [title, setTitle] = useState("Multiplication Table");
